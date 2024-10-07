@@ -27,7 +27,7 @@ html,body{
 #page1{
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    /* background-color: red; */
     position: relative;
 }
 #page1>video{
@@ -61,11 +61,49 @@ html,body{
 .bottom-page1{
     position: absolute;
     bottom: 5%;
-    left: 15%;
+    height: 35vh;
+    width: 50vw;
+    /* background-color: red; */
+    left: 10%;
 }
 .bottom-page1>h1{
-    font-family: a;
+    font-family: a; 
     font-size: 5vw;
     font-weight: 100;
     line-height: 1;
+    color: #fff;
+}
+.bottom-page1-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 35%;
+    width: 100%;
+    /* background-color: magenta; */
+}
+.bottom-page1-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 40px; */
+    font-family: a;
+}
+.bottom-page1-inner>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    color:#0b48ed;
+    font-family: b;
+    font-size: 16px;    
+}
+.bottom-page1-inner>h4{
+    font-size: 1.3vw  ;
+    font-weight: 100;
+    color: #fff;    
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
 }
