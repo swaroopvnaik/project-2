@@ -10,15 +10,15 @@ html,body{
 }
 @font-face {
     font-family: a;
-    src: url(./jost-variable.ttf);
+    src: url(https://thisismagma.com/assets/fonts/jost/jost-variable.woff2);
 }
 @font-face {
     font-family: c;
-    src: url(./KFOLCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+    src: url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2);
 }
 @font-face {
     font-family: a;
-    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+    src: url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2);
 }
 #main{
     position: relative;
@@ -119,8 +119,9 @@ html,body{
     margin-bottom: 3vw;
 }
 #page2>h1{
+    padding: 20px;
     font-weight: 100;
-    width: 90%;
+    width: 90vw;
     line-height: 1.3;
     font-size: 4vw;
     color: #dadada69;
